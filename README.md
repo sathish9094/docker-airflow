@@ -47,8 +47,6 @@ NB : If you want to have DAGs example loaded (default=False), you've to set the 
 - Flower: [localhost:5555](http://localhost:5555/)
 
 
-# Issues
 
-- Issue Tracker: https://github.com/jksinghpro/docker-airflow/issues
 
 
