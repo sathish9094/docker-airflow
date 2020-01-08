@@ -15,7 +15,7 @@ services:
 
 
     webserver:
-        image: jksingh/docker-airflow
+        image: sathraje/docker-airflow
         container_name: airflow_webserver
         restart: always
         depends_on:
@@ -39,7 +39,7 @@ services:
             retries: 3
 
     flower:
-        image: jksingh/docker-airflow
+        image: sathraje/docker-airflow
         container_name: airflow_flower
         restart: always
         depends_on:
@@ -52,7 +52,7 @@ services:
         command: flower
 
     scheduler:
-        image: jksingh/docker-airflow
+        image: sathraje/docker-airflow
         container_name: airflow_scheduler
         restart: always
         depends_on:
@@ -68,7 +68,7 @@ services:
         command: scheduler
 
     worker:
-        image: jksingh/docker-airflow
+        image: sathraje/docker-airflow
         container_name: airflow_worker
         restart: always
         depends_on:
