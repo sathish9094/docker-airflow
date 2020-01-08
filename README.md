@@ -38,7 +38,7 @@ NB : If you want to have DAGs example loaded (default=False), you've to set the 
 
 `LOAD_EX=n`
 
-    docker run -d -p 8080:8080 -e LOAD_EX=y jksingh/docker-airflow
+    docker run -d -p 8080:8080 -e LOAD_EX=y sathraje/docker-airflow
 
 
 ## UI Links
