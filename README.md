@@ -14,7 +14,7 @@ This repository contains **Dockerfile** of [apache-airflow](https://github.com/a
 
 For Building the docker container for airflow you first need to build the docker image using the dockerfile added in the repository.For adding [Extra Packages](https://airflow.incubator.apache.org/installation.html#extra-package) edit the docker file and then build.
 
-    docker build --rm -t jksingh/docker-airflow .
+    docker build --rm -t sathraje/docker-airflow .
 
 Don't forget to update the airflow images in the docker-compose files to jksingh/docker-airflow:latest.
 
