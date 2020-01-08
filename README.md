@@ -22,7 +22,7 @@ Don't forget to update the airflow images in the docker-compose files to jksingh
 
 By default, docker-airflow runs Airflow with **SequentialExecutor** :
 
-    docker run -d -p 8080:8080 jksingh/docker-airflow webserver
+    docker run -d -p 8080:8080 sathraje/docker-airflow webserver
 
 If you want to run another executor, use the other docker-compose files provided in this repository.
 
